@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a719b24d257fa833",
+  "name" : "TestSearch.test_func[text1]",
+  "time" : {
+    "start" : 1586749368344,
+    "stop" : 1586749388745,
+    "duration" : 20401
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ac220c5e9a6c66ac",
+  "name" : "TestSearch.test_func[text0]",
+  "time" : {
+    "start" : 1586749342718,
+    "stop" : 1586749362771,
+    "duration" : 20053
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

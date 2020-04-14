@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 13 11:42:48 CST 2020","Mon Apr 13 11:43:08 CST 2020","20401","","test_search","","test_search","TestSearch.test_func[text1]","TestSearch.test_func[text1]","
+搜索测试用例
+"
+"passed","Mon Apr 13 11:42:22 CST 2020","Mon Apr 13 11:42:42 CST 2020","20053","","test_search","","test_search","TestSearch.test_func[text0]","TestSearch.test_func[text0]","
+搜索测试用例
+"

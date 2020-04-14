@@ -1,0 +1,92 @@
+{
+  "uid" : "a719b24d257fa833",
+  "name" : "TestSearch.test_func[text1]",
+  "fullName" : "test_search.TestSearch.test_func[text1]",
+  "historyId" : "cf769aa58729e82f808eb8012f9550c2",
+  "time" : {
+    "start" : 1586749368344,
+    "stop" : 1586749388745,
+    "duration" : 20401
+  },
+  "description" : "\n搜索测试用例\n",
+  "descriptionHtml" : "<p>搜索测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤1",
+      "time" : {
+        "start" : 1586749377629,
+        "stop" : 1586749388745,
+        "duration" : 11116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fecb9aaf5c1354dc",
+        "name" : "搜索",
+        "source" : "fecb9aaf5c1354dc.txt",
+        "type" : "text/plain",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "AUTOBVT-9BRHBUQ"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "14992-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "testClass",
+    "value" : "test_search"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSearch.test_func[text1]"
+  }, {
+    "name" : "package",
+    "value" : "test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a719b24d257fa833.json",
+  "parameterValues" : [ ]
+}
