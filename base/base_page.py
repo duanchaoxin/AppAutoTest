@@ -10,7 +10,7 @@ class BasePage(object):
 
     def base_find(self, location, timeout=5, poll=0.5):
          return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll). \
-            until(self, lambda x: x.find_element(location[0], location[1]))
+            until(lambda x: x.find_element(location[0], location[1]))
 
     def base_click(self,ele):
         ele.click()

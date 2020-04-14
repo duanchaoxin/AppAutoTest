@@ -18,6 +18,6 @@ class LoginPage(BasePage):
 
     def login(self, user_name, password):
         self.input_username(user_name)
-        self.input_username(password)
+        self.input_password(password)
         self.click_login()
         self.click_confirm()

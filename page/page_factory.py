@@ -13,3 +13,4 @@ class PageFactory(object):
 
     def login_page(self):
         return LoginPage()
+

@@ -17,7 +17,8 @@ class DriverUtil(object):
                 "appActivity": ".MainActivity",  # 待测应用的启动名
                 # 解决中文无法输入问题
                 'resetKeyboard': True,
-                'unicodeKeyboard': True
+                'unicodeKeyboard': True,
+                "automationName": "Uiautomator2"  # toast问题
             }
             cls.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_capabilities=capabilities)
         return cls.driver
