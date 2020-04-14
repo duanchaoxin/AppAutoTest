@@ -20,4 +20,4 @@ class LoginPage(BasePage):
         self.input_username(user_name)
         self.input_password(password)
         self.click_login()
-        self.click_confirm()
+

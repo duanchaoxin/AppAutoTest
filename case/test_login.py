@@ -26,6 +26,13 @@ class TestLogin(object):
         self.factory.index_page().click_mine()
         self.factory.mine_page().click_login()
         self.factory.login_page().login('13157523435', 'lm123456')
+        self.factory.login_page().click_confirm()
         # 断言
         username_text = self.factory.mine_page().get_username_text()
         assert '3435' in username_text
+
+        # self.factory.index_page().click_mine()
+        # self.factory.mine_page().click_login()
+        # self.factory.login_page().login('13157523435', 'lm123456')
+        # username_text = self.factory.login_page().get_toast('账号还未注册')
+        # assert '账号还未注册' in username_text
