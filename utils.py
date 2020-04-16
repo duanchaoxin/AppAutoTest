@@ -1,3 +1,5 @@
+import time
+
 import yaml
 from appium import webdriver
 from config import BASE_DIR
@@ -35,3 +37,10 @@ def load_data(file_name):
     with open(BASE_DIR + "/data/{}".format(file_name), "r", encoding="utf-8") as f:
         python_data = yaml.safe_load(f)
         return python_data
+
+
+# 截图用例截图方法
+def jietu():
+    filename = BASE_DIR + "/screenshot/screenshot{}.png".format(time.strftime("%Y%m%d%H%M%S"))
+    DriverUtil.get_driver().get_screenshot_as_file(filename)
+    return filename
